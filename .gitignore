@@ -1,0 +1,36 @@
+# Byte-compiled / optimised
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Model weights (large binary files)
+weights/*.pt
+*.pt
+
+# Depth-Anything-3 (vendored dependency — manage separately)
+Depth-Anything-3/
+
+# Environment
+.env
+.venv/
+env/
+
+# Logs (keep directory, ignore contents)
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+weights
+logs
