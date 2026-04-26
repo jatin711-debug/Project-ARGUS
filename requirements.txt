@@ -5,6 +5,7 @@ numpy
 Pillow
 requests
 python-dotenv
+peft                # LoRA adapter loading
 
 # ── Depth Anything 3 ─────────────────────────────────────────
 # Install from local checkout: pip install -e ./Depth-Anything-3
