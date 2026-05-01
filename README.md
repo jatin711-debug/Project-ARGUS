@@ -71,7 +71,7 @@ graph TD
 | Phase | Model | What it Does | Output |
 |:-----:|-------|-------------|--------|
 | **1** | [LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M) + [LoRA](https://huggingface.co/johnny711/argus-lfm-lora) | Unified detection, localization, classification & tactical reasoning | JSON array of targets |
-| **2** | [Depth Anything 3](https://github.com/DepthAnything/Depth-Anything-3) | 3D reality check — is the target physically real or a flat decoy? | REAL / DECOY verdict |
+| **2** | [Depth Anything 3](https://github.com/ByteDance-Seed/depth-anything-3) | 3D reality check — is the target physically real or a flat decoy? | REAL / DECOY verdict |
 | **3** | — | Report assembly & compression metrics | Tactical JSON |
 
 ### Why LFM-First?
@@ -306,7 +306,7 @@ Project-ARGUS/
 | 🧠 Base Model | [LiquidAI/LFM2.5-VL-450M](https://huggingface.co/LiquidAI/LFM2.5-VL-450M) |
 | 📡 SimSat Simulator | [DPhi-Space/SimSat](https://github.com/DPhi-Space/SimSat) |
 | 🏆 Hackathon | [Liquid AI x DPhi Space](https://luma.com/n9cw58h0?tk=nVwuXw) |
-| 🔬 Depth Anything 3 | [DepthAnything/Depth-Anything-3](https://github.com/DepthAnything/Depth-Anything-3) |
+| 🔬 Depth Anything 3 | [ByteDance-Seed/depth-anything-3](https://github.com/ByteDance-Seed/depth-anything-3) |
 | ⚡ Unsloth | [unslothai/unsloth](https://github.com/unslothai/unsloth) |
 | 🗺️ Mapbox | [mapbox.com](https://www.mapbox.com/) |
 
